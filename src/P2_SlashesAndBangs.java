@@ -31,7 +31,16 @@ Line Number		| Fwd Slash	| Bangs	| Back Slash | HEADING		| HEADING		|
 public class P2_SlashesAndBangs {
 
 	public static void main(String[] args) {
-		
+		for (int line = 0; line < 6; line++) {			
+			for (int i = 0; i < 2 * line; i++)
+			System.out.print("\\");			
+			for (int i = 0; i < 22 - (4 * line); i++)
+				System.out.print("!");			
+			for (int i = 0; i < 2 * line; i++)
+			System.out.print("/");			
+			System.out.println();
+
+		}
 
 	}
 
