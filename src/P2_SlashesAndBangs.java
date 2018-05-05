@@ -11,12 +11,13 @@
  * how many of the character is printed on each line? Choose your headings based on how you can break down
  * the figure.
   
-Line Number		| HEADING		| HEADING		| HEADING		| HEADING		| HEADING		|	
-
-
-
-
-
+Line Number		| Fwd Slash	| Bangs	| Back Slash | HEADING		| HEADING		|	
+1                     0         22         0
+2                     2         18         2
+3                     4         14         4
+4                     6         10         6   
+5                     8         6          8
+6                     10        2          10  
 */
 
 /* 3. Using your analysis from above, in pseudocode describe the algorithm for how to draw the figure
@@ -30,6 +31,7 @@ Line Number		| HEADING		| HEADING		| HEADING		| HEADING		| HEADING		|
 public class P2_SlashesAndBangs {
 
 	public static void main(String[] args) {
+		
 
 	}
 
